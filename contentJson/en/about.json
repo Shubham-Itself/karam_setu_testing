@@ -1,0 +1,94 @@
+{
+    "aboutPage": {
+      "intro": {
+        "tagHtml": "About <span>KaramSetu</span>",
+      
+        "headline": "We Believe Every Driver Deserves Dignity, Recognition, and a Professional Identity."
+      },
+  
+      "story": {
+        "tag": "What KaramSetu Means?",
+        "headlineHtml": "A Bridge of Work. <span>A Bridge of Dignity.</span>",
+      "visionTitle": "Vision",
+
+  "missionTitle": "Mission",
+        "vision": "India where every driver — whether behind the wheel of a taxi, a ministry vehicle, or a household car — is a certified, trusted, and dignified service professional.",
+        "mission": "To design and deploy India's first national soft skills and behavioural certification framework for drivers — structured, scalable, mobile-first, and built to last.",
+        "descriptionHtml": "Karam means work. Setu means bridge.<br> KaramSetu is a bridge — between where India's drivers are today and where they deserve to be. Between informal labour and certified professionalism. Between low recognition and earned respect. Between a system that only measures complaints and one that actively builds capability."
+      },
+  
+      "values": {
+        "tag": "What We Stand For",
+        "headlineHtml": "The Beliefs That Drive <span>Everything We Do</span>",
+        "items": [
+          {
+            "title": "Dignity of Labour",
+            "desc": "Every driver who completes our program is not just better trained. They are more respected — by passengers, by platforms, and by themselves."
+          },
+          {
+            "title": "Systemic Change Over One-Time Training",
+            "desc": "A single workshop changes nothing. KaramSetu is designed to institutionalise behavioural standards — making professionalism continuous and measurable."
+          },
+          {
+            "title": "Inclusion by Design",
+            "desc": "Our platform is built for India's real workforce — those with limited literacy, inconsistent internet access, and no time to attend classrooms."
+          },
+          {
+            "title": "Trust as Infrastructure",
+            "desc": "Trust is built through training, certification, and consistent standards — and sustained over time."
+          }
+        ]
+      },
+  
+      "roadmap": {
+        "tag": "The Road Ahead",
+        "headlineHtml": "Starting Local. <span>Building National.</span>",
+        "description": "KaramSetu will be rolled out in six structured phases — beginning with a pilot in 2–3 major cities and scaling to a nationwide certification standard by Year 5.",
+        "phases": [
+          "Phase 0 — Framework & curriculum finalisation",
+          "Phase 1 — Pilot with 5,000 drivers across 2–3 cities",
+          "Phase 2 — Integration with aggregators across 5 metro cities",
+          "Phase 3 — Metro expansion, 1,00,000 drivers certified",
+          "Phase 4 — Private and household driver segment, Tier-2 cities",
+          "Phase 5 & 6 — Multi-state scale-up and national institutionalisation"
+        ],
+        "goal": "9 Lakh+ certified drivers. One national standard. A transformed mobility workforce."
+      },
+  
+      "team": {
+        "tag": "The People Behind KaramSetu",
+        "headlineHtml": "Built by People Who <span>Believe in the Work.</span>",
+        "note": "Founder profiles to be added"
+      },
+  
+      "partners": {
+        "tag": "Who We Work With",
+        "headlineHtml": "A Mission That <span>Takes Many Hands</span>",
+        "description": "KaramSetu partners with aggregators, government bodies, and CSR organisations to build a structured and scalable driver certification ecosystem.",
+        "categories": [
+          {
+            "title": "Cab Aggregators & Mobility Platforms",
+            "desc": "Integrate certification into onboarding, reduce complaints, and build trust."
+          },
+          {
+            "title": "Government & Ministry Bodies",
+            "desc": "Align with national policies and enable large-scale adoption."
+          },
+          {
+            "title": "CSR & Corporate Partners",
+            "desc": "Fund driver cohorts and measure social impact."
+          }
+        ]
+      },
+  
+      "cta": {
+        "tag": "Be Part of the Movement",
+        "headlineHtml": "The Road to a Certified <span>India Starts Here.</span>",
+        "description": "Whether you are a driver, a government body, or a company — KaramSetu has a place for you.",
+        "buttons": {
+          "driver": "Register as a Driver",
+          "partner": "Partner with Us"
+        }
+      }
+    }
+  }

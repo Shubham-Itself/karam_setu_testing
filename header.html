@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Header (included via fetch)</title>
+</head>
+<body>
+<header class="main-header">
+    <div class="header-sticky bg-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo Start -->
+                <a class="navbar-brand" href="./">
+                    <img src="images/logo.svg" alt="Logo">
+                </a>
+                <!-- Logo End -->
+
+                <!-- Main Menu Start -->
+                <div class="collapse navbar-collapse main-menu">
+                    <div class="nav-menu-wrapper">
+                        <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item " ><a class="nav-link" href="./" data-i18n="nav.home" >Home</a>
+                               
+                            </li>                                
+                            <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About Us</a>
+                            <li class="nav-item"><a class="nav-link" href="framework.html" data-i18n="nav.framework">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="driver.html" data-i18n="nav.drivers">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="collaboration.html" data-i18n="nav.collaborations">Blog</a></li>
+                            <li class="nav-item submenu"><a class="nav-link" href="#" data-i18n="nav.resources">Pages</a>
+                                <ul>                                        
+                                    <li class="nav-item"><a class="nav-link" href="service-single.html" data-i18n="nav.documents">Service Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-single.html" data-i18n="nav.media">Blog Details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="courses.html" data-i18n="nav.faqs">Courses</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="course-single.html" data-i18n="nav.caseStudies">Courses details</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="course-single.html" data-i18n="nav.testimonials">Courses details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
+                                            
+                        </ul>
+                    </div>
+
+                    <!-- Language toggle: English / Hindi -->
+                    <div class="header-lang-toggle" role="group" aria-label="Choose language">
+                        <button type="button" class="lang-seg" data-lang="en" title="English" aria-pressed="false">EN</button>
+                        <button type="button" class="lang-seg" data-lang="hi" title="हिंदी" aria-pressed="false">हिंदी</button>
+                    </div>
+                    
+                    <!-- Header Contact Box Start -->
+                    <div class="header-contact-box">
+                        <!-- Header Contact Btn Start -->
+                      
+                        <!-- Header Contact Btn End -->
+
+                        <!-- Header Booking Button Start -->
+                        <div class="header-booking-btn">
+                            <a href="book-appointment.html" class="btn-default" data-i18n="nav.getCertified">join us today</a>
+                        </div>
+                        <!-- Header Booking Button End -->
+                    </div>
+                    <!-- Header Contact Box End -->
+                </div>
+                <!-- Main Menu End -->
+                <div class="navbar-toggle"></div>
+            </div>
+        </nav>
+        <div class="responsive-menu"></div>
+    </div>
+</header>
+</body>
+</html>

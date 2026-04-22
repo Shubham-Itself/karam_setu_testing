@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+
+    "about": "About Us",
+
+    "framework": "Our Framework",
+
+    "drivers": "For Drivers",
+
+    "collaborations": "Collaborations",
+
+    "resources": "Resources",
+
+    "documents": "Documents / Reports",
+
+    "media": "Media / Videos",
+
+    "faqs": "FAQs",
+
+    "caseStudies": "Case Studies",
+
+    "testimonials": "Testimonials",
+
+    "contact": "Contact Us",
+    "getCertified": "Get Certified"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "driversPage": {
+    "hero": {
+      "tagHtml": "For <span>Drivers</span>",
+      "headlineHtml": "You Drive India Forward. <span>It's Time India Recognised That.</span>",
+      "subheadline": "You work long hours. You navigate difficult roads. You carry strangers safely every day. KaramSetu is built for you — to give you training, certification, and professional recognition.",
+      "cta": {
+        "primary": "Register for Free",
+        "secondary": "See How It Works"
+      }
+    },
+
+    "intro": {
+      "tag": "We See You",
+      "headlineHtml": "You Are Not Just a Driver. <span>You Are a Service Professional.</span>",
+      "descriptionHtml": "Every day, millions of Indians trust you with their safety, their time, and their lives. You take children to school. You bring patients to hospitals. You drop families home in the middle of the night. You are one of the most essential workers in this country.<br><br>Yet the system has never formally recognised that.<br><br>No certificate. No structured training. No professional identity beyond a star rating that goes up and down based on a passenger's mood.<br><br>KaramSetu changes that. We give you a structured program, a nationally recognised certificate, and the skills to build a career — not just a job."
+    }
+  },
+
+  "benefitsDriver": {
+
+    "tag": "Your Benefits",
+
+    "headlineHtml": "Here Is What KaramSetu Does <span>for Your Career</span>",
+
+    "items": [
+
+      {
+
+        "title": "Benefit 1 — Earn More Money",
+
+        "tagline": "Better skills. Better ratings. Better income.",
+
+        "descriptionHtml": "Higher ratings mean more ride requests from the platform. More ride requests mean more trips. More trips mean more money. It is that direct.<br><br>KaramSetu-certified drivers also become eligible for premium segments — corporate rides, airport transfers, and outstation bookings — which pay significantly more than standard trips."
+
+      },
+
+      {
+
+        "title": "Benefit 2 — Get a Professionally Recognised Certificate",
+
+        "tagline": "A certificate that speaks for you.",
+
+        "descriptionHtml": "Your KaramSetu certificate is digitally verifiable and linked to your Aadhaar identity. Passengers can see it. Platforms recognise it. Employers trust it. It is proof — in black and white — that you are a trained, certified, and professional driver."
+
+      },
+
+      {
+
+        "title": "Benefit 3 — Fewer Complaints, Less Stress",
+
+        "tagline": "Handle every situation with confidence.",
+
+        "descriptionHtml": "Most complaints drivers receive are not about driving — they are about communication, behaviour, or a misunderstood situation. KaramSetu trains you to handle these situations calmly and professionally — so you spend less time defending yourself and more time earning."
+
+      },
+
+      {
+
+        "title": "Benefit 4 — Know Your Rights",
+
+        "tagline": "No one can take advantage of a driver who knows the law.",
+
+        "descriptionHtml": "Do you know your legal rights on the road? Your obligations under passenger safety law? What to do if a passenger files a false complaint? KaramSetu's legal literacy module gives you this knowledge — so you can work with confidence and protect yourself when it matters."
+
+      },
+
+      {
+
+        "title": "Benefit 5 — Build a Career, Not Just a Job",
+
+        "tagline": "From operator to certified professional.",
+
+        "descriptionHtml": "A KaramSetu certificate opens doors that were previously closed — corporate fleet jobs, premium mobility platforms, government-linked driving positions, and household employer opportunities that pay better and offer more stability. Certification is the first step towards a real career in mobility."
+
+      },
+
+      {
+
+        "title": "Benefit 6 — Learn Without Losing a Single Rupee",
+
+        "tagline": "No classes. No travel. No lost earning time.",
+
+        "descriptionHtml": "Every module is 5–10 minutes long and available on your phone. You can learn between trips, during breaks, or at home in the evening. There are no fixed timings, no classrooms to travel to, and no working hours lost."
+
+      }
+
+    ]
+
+  },
+
+  "skills": {
+
+    "tag": "The Program",
+
+    "headlineHtml": "5 Skills That Will Change <span>How Passengers See You</span>",
+
+    "introHtml": "KaramSetu's training covers five areas that directly impact your ratings, your income, and your professional identity. These are not theoretical lessons. They are practical, real-world skills built for the situations you face every day on the road.",
+
+    "items": [
+
+      {
+
+        "title": "How to Behave Like a Professional",
+
+        "description": "Punctuality, emotional control, handling difficult passengers, respectful conduct — the habits that separate a trusted driver from an average one."
+
+      },
+
+      {
+
+        "title": "How to Communicate the Right Way",
+
+        "description": "Greeting passengers, handling complaints without escalation, speaking politely under pressure, and navigating language differences with ease."
+
+      },
+
+      {
+
+        "title": "Grooming & Vehicle Hygiene Standards",
+
+        "description": "What to wear, how to maintain your vehicle, and the small habits that create a big first impression — every single time."
+
+      },
+
+      {
+
+        "title": "Safety & Passenger Security",
+
+        "description": "Women and child safety protocols, night ride conduct, emergency response basics, and the mindset that keeps every passenger feeling safe in your vehicle."
+
+      },
+
+      {
+
+        "title": "Your Legal Rights & Duties",
+
+        "description": "Traffic law awareness, passenger safety obligations, permit and documentation compliance, and how to protect yourself from unfair complaints."
+
+      }
+
+    ]
+
+  },
+
+  "impact": {
+
+    "tag": "Why It Matters",
+
+    "headlineHtml": "What Certification Actually Changes <span>for Drivers Like You</span>",
+"stats": [
+  "Stat 1: Drivers with higher ratings earn up to 30% more in monthly income through increased ride allocation and access to premium segments.",
+  "Stat 2: Over 60% of passenger complaints in India's cab ecosystem are behaviour and communication-related — areas directly addressed by KaramSetu's training.",
+  "Stat 3: Certified drivers are preferred by corporate and institutional clients — a segment that pays 2–3x standard ride fares.",
+  "Stat 4: 9.25 Lakh+ drivers will be certified under KaramSetu's national rollout — becoming part of India's first professional driver community."
+]
+
+  },
+
+  "stepsDriver": {
+
+    "tag": "Your Journey",
+
+    "headlineHtml": "From Registration to Certification — <span>Here's How Simple It Is</span>",
+
+    "items": [
+
+      {
+
+        "title": "Register for Free",
+
+        "description": "Sign up on the KaramSetu platform using your Aadhaar number and driving licence. The entire process is digital — no paperwork, no office visit."
+
+      },
+
+      {
+
+        "title": "Start Learning on Your Phone",
+
+        "description": "Access your personalised learning dashboard. Start with any of the five training pillars. Each module is short, audio-visual, and available in Hindi and English."
+
+      },
+
+      {
+
+        "title": "Complete All 5 Pillars",
+
+        "description": "Work through the modules at your own pace — between rides, at home, or whenever you have time. No deadlines. No pressure."
+
+      },
+
+      {
+
+        "title": "Clear the Digital Assessment",
+
+        "description": "Each pillar ends with a simple digital assessment. The questions are practical, fair, and based on real situations you already encounter on the road."
+
+      },
+
+      {
+
+        "title": "Receive Your KaramSetu Certificate",
+
+        "description": "Once all assessments are cleared, your certificate is issued digitally — linked to your Aadhaar, verifiable by anyone, and yours to keep and share."
+
+      }
+
+    ]
+
+  },
+
+  "eligibility": {
+
+    "tag": "Eligibility",
+
+    "headlineHtml": "Are You Eligible? <span>Most Likely, Yes.</span>",
+
+    "descriptionHtml": "KaramSetu is open to all professional drivers across India. If you drive for a living — whether on an app, for a company, for a household, or for a government department — you are eligible to enrol.",
+    "youNeedTest" : "You Need:",
+    "youDontNeedTest":"You Do Not Need:",
+
+    "youNeed": [
+
+      "A valid Driving Licence (DL)",
+
+      "Aadhaar card for identity verification",
+
+      "A smartphone with basic internet access",
+
+      "Minimum driving experience as required by your platform or employer",
+
+      "No major criminal or serious safety violation on record"
+
+    ],
+
+    "youDontNeed": [
+
+      "Any prior formal education or degree",
+
+      "A laptop or computer",
+
+      "To attend any physical class or training centre",
+
+      "To take time off from work"
+
+    ]
+
+  },
+
+  "types": {
+
+    "tag": "Who We Train",
+
+    "headlineHtml": "Whatever You Drive, <span>KaramSetu Is for You</span>",
+
+    "items": [
+
+        {
+    
+          "title": "App-Based & Taxi Drivers (Ola, Uber, Rapido, Outstation)",
+    
+          "description": "Get certified to access higher ride tiers, improve your ratings, and stand out in a competitive platform environment. Build a strong reputation with both city and long-distance passengers."
+    
+        },
+    
+        {
+    
+          "title": "Commercial & Logistics Drivers",
+    
+          "description": "Build the professional conduct and safety awareness that corporate and institutional clients actively look for when choosing transport partners."
+    
+        },
+    
+        {
+    
+          "title": "Household & Private Drivers",
+    
+          "description": "Earn the trust of families, employers, and placement agencies with a verified certificate that proves your professionalism and reliability."
+    
+        },
+    
+        {
+    
+          "title": "Government & Public Service Drivers",
+    
+          "description": "Meet the conduct, discipline, and legal literacy standards expected in government, ministerial, and public service environments."
+    
+        }
+    
+      ]
+
+  },
+
+  "faq": {
+
+    "tag": "Your Questions, Answered",
+
+    "headlineHtml": "We Know What You Are Thinking. <span>Here Are the Answers.</span>",
+
+    "items": [
+
+      {
+
+        "q": "Will this take time away from my work?",
+
+        "a": "No. Every module is 5–10 minutes long and available on your phone. You can learn between trips, during breaks, or at home. Not a single rupee of earning time is lost."
+
+      },
+
+      {
+
+        "q": "Is this free?",
+
+        "a": "For eligible drivers in pilot cities and CSR-funded cohorts, the program is available at no cost. Subsidised and free access will be expanded as the program scales nationally."
+
+      },
+
+      {
+
+        "q": "Is this certificate actually recognised?",
+
+        "a": "Yes. KaramSetu certification is aligned with National Occupational Standards (NOS) and is digitally verifiable. It is recognised by participating platforms, corporate clients, and government departments."
+
+      },
+
+      {
+
+        "q": "What if I fail the assessment?",
+
+        "a": "Assessments can be retaken. KaramSetu is not designed to fail drivers — it is designed to build them up. You will have the support and the opportunity to complete the program at your own pace."
+
+      },
+
+      {
+
+        "q": "Do I need to know English?",
+
+        "a": "No. The entire program is available in Hindi, and regional language rollout is underway. The platform is designed to be accessible regardless of your language or literacy level."
+
+      },
+
+      {
+
+        "q": "What happens after I get certified?",
+
+        "a": "Your certificate is active for 1–2 years. You will receive reminders for refresher training to keep your certification valid. Over time, your certified status will be visible to platforms, passengers, and employers."
+
+      }
+
+    ]
+
+  },
+
+  "community": {
+
+    "tag": "Join the Movement",
+
+    "headlineHtml": "Be Part of India's First <span>Certified Driver Community.</span>",
+
+    "descriptionHtml": "When you complete KaramSetu, you do not just earn a certificate. You join a growing community of drivers who have chosen to take their profession seriously — drivers who are respected, recognised, and rewarded for their commitment to excellence.<br><br>This is not just about one ride or one rating. It is about building a professional identity that follows you for your entire career — something no algorithm can take away.<br><br>India's first certified driver community starts with you."
+
+  },
+
+  "finalCta": {
+
+    "tag": "Take the First Step",
+
+    "headlineHtml": "Your Certificate. Your Career. <span>Your Respect.</span>",
+
+    "descriptionHtml": "Registration is free. The program is on your phone. The certificate is yours for life. There is no reason to wait.",
+
+    "buttons": {
+
+      "primary": "Register for Free Now",
+
+      "secondary": "Call Us to Know More",
+
+      "tertiary": "Download Program Overview"
+
+    },
+
+    "trustLine": "Join thousands of drivers across India who are building a better career with KaramSetu."
+
+  }
+}

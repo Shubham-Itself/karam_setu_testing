@@ -1,0 +1,132 @@
+{
+    "collaborationPage": {
+      "hero": {
+        "tag": "Collaborations",
+        "headlineHtml": "The Road to a Certified India <span>Cannot Be Built Alone.</span>"
+      }
+  
+    
+    },
+    "whyCollaborate": {
+        "tag": "Why Partner With Us",
+        "headlineHtml": "This Is Not a Sponsorship. <span>It Is a Stake in India's Future.</span>",
+        "description": "India's driver workforce is one of the largest and most underleveraged professional communities in the world. Over 15 million drivers operate across taxis, logistics, households, and government departments — yet no national standard governs their professional conduct, safety awareness, or behavioural training.\n\nKaramSetu is closing that gap. And we are looking for partners who understand that the most meaningful impact is not just charitable — it is structural.",
+        "reasons": [
+          {
+            "title": "Measurable, Auditable Impact",
+            "description": "Every driver trained, every certificate issued, and every behavioural improvement is tracked on a centralised dashboard — giving you transparent, reportable outcomes for every rupee invested."
+          },
+          {
+            "title": "National Scale with Local Relevance",
+            "description": "KaramSetu operates city by city, state by state — allowing partners to focus their impact on specific geographies, communities, or driver segments that matter most to them."
+          },
+          {
+            "title": "A Framework That Lasts",
+            "description": "KaramSetu is not a one-time intervention. It is a recurring certification system with annual renewals — meaning your partnership creates sustained, long-term change, not a momentary spike."
+          }
+        ]
+      },
+  
+      "partners": {
+        "tag": "Our Collaboration Partners",
+        "headlineHtml": "Three Types of Partners. <span>One Shared Goal.</span>",
+  
+        "csr": {
+          "tag": "For CSR Partners",
+          "headlineHtml": "Turn Your CSR Mandate into <span>Measurable Social Transformation.</span>"
+        },
+  
+        "government": {
+          "tag": "For Government Partners",
+          "headlineHtml": "A Framework Ready for Policy. <span>A Program Ready for Scale.</span>"
+        },
+  
+        "aggregators": {
+          "tag": "For Cab Aggregators",
+          "headlineHtml": "Stop Managing Complaints. <span>Start Building Professionals.</span>"
+        }
+      },
+  
+      "process": {
+        "tag": "The Collaboration Model",
+        "headlineHtml": "Simple to Start. <span>Structured to Scale.</span>",
+        "description": "We understand that every organisation operates differently. KaramSetu's collaboration model is designed to be flexible at the entry point and structured at the delivery end — so you can start at a scale that works for you and grow from there.",
+     "steps": [
+  {
+    "title": "Discovery Call",
+    "description": "We begin with a conversation. We understand your goals, your geography, your audience, and your constraints — and we map out what a collaboration could look like for your organisation specifically."
+  },
+  {
+    "title": "Collaboration Design",
+    "description": "Together, we define the scope — number of drivers, target cities, timeline, reporting requirements, and integration needs. Every collaboration is tailored, not templated."
+  },
+  {
+    "title": "Agreement & Onboarding",
+    "description": "We formalise the partnership with a clear agreement covering deliverables, timelines, reporting structures, and financial terms. Onboarding is quick and fully supported by our team."
+  },
+  {
+    "title": "Program Delivery",
+    "description": "KaramSetu manages the full training delivery — content, platform, assessments, and certification — while keeping you informed at every milestone through your dedicated dashboard."
+  },
+  {
+    "title": "Impact Reporting",
+    "description": "You receive regular impact reports — monthly, quarterly, and annually — covering enrollment rates, completion rates, assessment scores, rating improvements, and complaint reduction data."
+  },
+  {
+    "title": "Renewal & Expansion",
+    "description": "As the first cohort completes certification, we plan the next phase together — expanding geography, increasing driver numbers, or deepening the curriculum based on outcomes."
+  }
+]
+      },
+  
+   "impactCollab": {
+  "tag": "The Impact",
+  "headlineHtml": "What Your Collaboration <span>Achieves</span>",
+
+  "driversTag": "For Drivers",
+  "drivers": [
+    "A nationally recognised professional certificate",
+    "Higher earnings through better ratings and premium segment access",
+    "Legal awareness and protection of their rights",
+    "Dignity, confidence, and a career — not just a job"
+  ],
+
+  "passengersTag": "For Passengers",
+  "passengers": [
+    "Safer, more respectful, and more consistent ride experiences",
+    "Reduced anxiety — especially for women, children, and elderly travellers",
+    "Greater trust in India's mobility ecosystem as a whole"
+  ],
+
+  "societyTag": "For Society",
+  "society": [
+    "Structured contribution to India's national skilling mission",
+    "Improved civic behaviour and public safety in urban spaces",
+    "Formal recognition of one of India's largest informal workforces",
+    "A stronger, more trustworthy mobility infrastructure for every Indian city"
+  ]
+},
+  
+      "ctaCollab": {
+        "tag": "Let's Build This Together",
+        "headlineHtml": "Ready to Be a Part of <span>This Mission?</span>",
+        "description": "Whether you are exploring a CSR partnership, a government pilot, or a platform integration — the first step is a conversation.",
+        "buttons": {
+          "primary": "Book a Meeting",
+          "secondary": "Download Partnership Overview"
+        },
+        "form": {
+          "fields": [
+            "Full Name",
+            "Organisation Name",
+            "Designation / Role",
+            "Email Address",
+            "Phone Number",
+            "Organisation Type",
+            "City / State",
+            "Message"
+          ],
+          "trust": "Our team typically responds within 24 hours. All conversations are confidential."
+        }
+      }
+  }

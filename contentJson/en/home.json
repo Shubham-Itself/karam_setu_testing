@@ -1,0 +1,266 @@
+{
+  "hero": {
+    "tagline": "India's Driver Upskilling Initiative",
+    "headline": "From Driver to Certified Professional.",
+    "headlineHtml": "From Driver to <span>Certified Professional</span>.",
+    "subheadline": "KaramSetu is India's first structured soft skills and upskilling certification program for taxi, commercial, and household drivers.",
+    "description": "Get certified. Build trust. Get more rides. Earn more.",
+    "cta": {
+      "primary": "Register for Free",
+      "secondary": "See the Program"
+    },
+    "ctaCards": [
+      {
+        "title": "Structured soft skills & certification",
+        "desc": "For taxi, commercial, and household drivers — building professionalism and trust nationwide."
+      },
+      {
+        "title": "Trust, rides & earnings",
+        "desc": "Get certified. Build trust. Get more rides. Earn more."
+      }
+    ]
+  },
+
+  "stats": [
+    { "value": "9 Lakh+", "label": "Drivers to be Certified" },
+    { "value": "5", "label": "Skill Pillars" },
+    { "value": "100%", "label": "Digital & Mobile-First" }
+  ],
+
+  "problem": {
+    "tag": "The Challenge",
+    "headline": "India's Drivers Deserve Better. So Do Passengers.",  
+    "headlineHtml": "India's Drivers Deserve Better. <br><span> So Do Passengers.</span>",
+    "description": "India has one of the world's largest driver ecosystems — yet no national standard for driver professionalism exists.",
+    "cards": [
+      {
+        "title": "No Standardised Behaviour Training",
+        "desc": "Driving skill is tested. Behaviour, communication, and hygiene are not — leaving a major gap in service quality across the country."
+      },
+      {
+        "title": "Growing Safety Concerns",
+        "desc": "Passengers — especially women and children — face anxiety around safety, comfort, and predictable conduct during every trip."
+      },
+      {
+        "title": "Lower Ratings, Lower Earnings",
+        "desc": "Behavioural complaints directly reduce ratings, bookings, and income — without any structured support to help drivers improve."
+      },
+      {
+        "title": "No Professional Recognition",
+        "desc": "Drivers are treated as informal workers despite serving millions daily. There is no certification that recognises their professional skill."
+      }
+    ],
+    "quote": "\"When Indian drivers work abroad, they show higher discipline, better communication, and professional conduct. It is not about capability — it is about systems.\""
+  },
+
+  "about": {
+    "tag": "What is KaramSetu",
+    "headline": "A Bridge Between Work and <span>Spiritual Dignity.</span>",
+    "headlineHtml": "A Bridge Between Work and <span>Spiritual Dignity.</span>",
+    "description": "KaramSetu — meaning \"Bridge of Work\" — is India's first structured, scalable, and nationally deployable soft skills and behavioural certification platform designed specifically for drivers. <br> We go beyond driving skills. KaramSetu trains and certifies drivers in communication, grooming, passenger safety, legal awareness, and professional conduct — transforming them from vehicle operators into certified service professionals.",
+
+    "details": "",
+    "highlights": [
+      "Mobile-first, short learning modules",
+      "Available in Hindi, English, and regional languages",
+      "Aadhaar-verified digital certification",
+      "Periodic refresher training every 1–2 years"
+    ],
+    "certificate": {
+      "title": "KaramSetu Certification",
+      "desc": "Upon completing the program, drivers receive a digitally verifiable certificate — recognised by platforms, government departments, and corporate clients. It is not just a document. It is a professional identity.",
+      "tags": [
+        "Digitally Verifiable",
+        "Platform-Recognised",
+        "NOS-Aligned",
+        "Annual Renewal"
+      ]
+    }
+  },
+
+  "pillars": {
+    "tag": "The Training Program",
+    "headline": "5 Pillars of Driver <span>Excellence</span>",
+    "headlineHtml": "5 Pillars of Driver <span>Excellence</span>",
+    "description": "A structured curriculum built around what passengers actually need — and what drivers deserve to know.",
+    "items": [
+      {
+        "title": "Behaviour & Professional Attitude",
+        "desc": "Discipline, punctuality, emotional control, conflict handling, and respectful public conduct."
+      },
+      {
+        "title": "Communication Skills",
+        "desc": "Polite passenger interaction, handling complaints professionally, multilingual basics, and professional language use."
+      },
+      {
+        "title": "Grooming & Personal Hygiene",
+        "desc": "Dress code standards, personal cleanliness, vehicle hygiene practices, and professional presentation."
+      },
+      {
+        "title": "Safety & Security Awareness",
+        "desc": "Women and child safety sensitivity, household security protocols, and emergency response basics."
+      },
+      {
+        "title": "Rights & Duties of Drivers",
+        "desc": "Legal rights, traffic law awareness, ethical conduct, and passenger and public responsibilities."
+      }
+    ]
+  },
+
+  "benefits": {
+    "tag": "For Drivers",
+    "headline": "What KaramSetu Gives You",
+    "headlineHtml": "What KaramSetu <span>Gives You</span>",
+    "description": "Certification is not just a piece of paper. It means more rides, better income, and the respect you deserve.",
+    "items": [
+      {
+        "title": "Higher Earnings",
+        "desc": "Certified drivers get better ratings, more repeat bookings, and access to premium and corporate travel segments — all of which directly increase your income."
+      },
+      {
+        "title": "Better Ratings, More Rides",
+        "desc": "Passengers trust and prefer certified drivers. Higher ratings mean the platform sends you more ride requests — automatically."
+      },
+      {
+        "title": "Official Professional Identity",
+        "desc": "Your KaramSetu certificate is a recognised professional credential — verifiable by passengers, platforms, and employers. You are not just a driver. You are a certified service professional."
+      },
+      {
+        "title": "Learn on Your Phone, at Your Own Pace",
+        "desc": "All modules are short (5–10 minutes), mobile-friendly, and available in Hindi and English. No need to attend classes. No loss of working hours."
+      }
+    ]
+  },
+
+  "steps": {
+    "tag": "How It Works",
+    "headline": "Your Path to Certification",
+    "headlineHtml": "Your Path to <span>Certification</span>",
+    "description": "Four simple steps from registration to a nationally recognised certificate.",
+    "items": [
+      {
+        "title": "Register & Verify",
+        "desc": "Sign up with your Aadhaar and driving licence. Quick and fully digital."
+      },
+      {
+        "title": "Complete Modules",
+        "desc": "Learn through short audio-visual lessons on your phone — at any time, from any place."
+      },
+      {
+        "title": "Take the Assessment",
+        "desc": "Complete a simple digital evaluation to confirm your learning and receive your score."
+      },
+      {
+        "title": "Get Certified",
+        "desc": "Receive your digitally verifiable KaramSetu certificate — shareable with platforms and passengers."
+      }
+    ]
+  },
+
+  "audience": {
+    "tag": "Who It's For",
+    "headline": "Built for Drivers. Trusted by Everyone.",
+    "headlineHtml": "Built for Drivers. <span>Trusted by Everyone.</span>",
+    "groups": [
+      {
+        "title": "India's Drivers",
+        "intro": "Taxi, app-based (Ola/Uber), commercial, household, and ministerial drivers across Tier 1, 2, and 3 cities.",
+        "points": [
+          "Earn more with a certified profile",
+          "Access premium and corporate rides",
+          "Build a respected professional identity",
+          "Know your rights under Indian law"
+        ]
+      },
+      {
+        "title": "Government & Ministry Officials",
+        "intro": "A scalable national framework aligned with India's skilling mission — ready for policy integration and state-level adoption.",
+        "points": [
+          "NOS-aligned certification standard",
+          "Centralised compliance dashboard",
+          "State-wise phased rollout ready"
+        ]
+      },
+      {
+        "title": "CSR & Corporate Partners",
+        "intro": "Fund structured upskilling of frontline workers. Measurable social impact, auditable outcomes, and alignment with national mobility reform.",
+        "points": [
+          "CSR-funded certification cohorts",
+          "Impact measurement and reporting",
+          "Aggregator integration support"
+        ]
+      }
+    ]
+  },
+
+  "impact": {
+    "tag": "The Scale of Impact",
+    "headline": "A Mission for a <span>Million Drivers</span>",
+    "headlineHtml": "A Mission for a <span>Million Drivers</span>",
+    "description": "KaramSetu's phased rollout aims to transform the professional identity of India's driver workforce over five years.",
+    "stats": [
+      {
+        "counter": "9.25",
+        "suffix": " Lakh+",
+        "label": "Drivers to be certified by Year 5"
+      },
+      {
+        "counter": "6",
+        "suffix": "",
+        "label": "Phased rollout stages across India"
+      },
+      {
+        "counter": "10",
+        "suffix": "+",
+        "label": "States covered in the expansion plan"
+      },
+      {
+        "counter": "1",
+        "suffix": "st",
+        "label": "National behavioural standard for drivers in India"
+      }
+    ]
+  },
+
+  "vision": {
+    "quote": "KaramSetu is not a training program. It is a national behavioural infrastructure reform for mobility - ",
+    "enroll":"enroll today!",
+    "description": "Every driver who completes KaramSetu becomes a trusted representative of their platform, their city, and their country. Safer rides. Dignified livelihoods. Trusted cities."
+  },
+
+  "cta": {
+    "tag": "Join KaramSetu",
+    "headline": "Ready to Become a Certified Professional?",
+    "headlineHtml": "Ready to Become a <span>Certified Professional?</span>",
+    "description": "Whether you are a driver looking to grow your career, a government body exploring the framework, or a CSR partner looking to create lasting impact — KaramSetu starts with a conversation.",
+    "points": [
+      "Mobile-first, self-paced learning",
+      "Nationally recognised certificate",
+      "Free for eligible drivers in pilot cities"
+    ],
+    "form": {
+      "title": "Register Your Interest",
+      "subcopy": "Tell us who you are and we will be in touch with the right information.",
+      "fields": [
+        "Full Name",
+        "Phone Number",
+        "City"
+      ],
+      "roleLabel": "I am a...",
+      "roleOptions": [
+        "Taxi/App Driver",
+        "Commercial Driver",
+        "Household Driver",
+        "Government Driver",
+        "Ministry Official",
+        "CSR/Corporate Partner",
+        "Cab Aggregator"
+      ],
+      "submit": "Submit Registration"
+    }
+  },
+
+  "ui": {
+    "chooseLanguage": "Language"
+  }
+}
