@@ -6089,7 +6089,7 @@ header.main-header .header-sticky.active{
     }
 
 	.excellence-counter-content{
-        width: 80%;
+        width: 100%;
     }
 
 	.excellence-counter-content h3{
@@ -6463,6 +6463,9 @@ html.lang-hi body{
 .header-lang-toggle{
 	display: inline-flex;
 	align-items: stretch;
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
 	margin-right: 16px;
 	flex-shrink: 0;
 	padding: 3px;
@@ -6474,13 +6477,32 @@ html.lang-hi body{
 	gap: 2px;
 }
 
+.header-lang-toggle::before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: calc(50% - 4px);
+	height: calc(100% - 6px);
+	border-radius: 999px;
+	background: var(--accent-color);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+	transform: translateX(0);
+	transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+	z-index: 0;
+}
+
+.header-lang-toggle:has(.lang-seg[data-lang="hi"].active)::before{
+	transform: translateX(calc(100% + 2px));
+}
+
 .mobile-header-lang-toggle{
 	display: none;
 }
 
 .header-lang-toggle .lang-seg{
-	flex: 0 0 auto;
-	min-width: 52px;
+	flex: 1 1 0;
+	min-width: 0;
 	padding: 8px 14px;
 	border: none;
 	border-radius: 999px;
@@ -6491,19 +6513,20 @@ html.lang-hi body{
 	line-height: 1.15;
 	letter-spacing: 0.02em;
 	cursor: pointer;
-	transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+	position: relative;
+	z-index: 1;
+	transition: color 0.28s ease, transform 0.28s ease;
 }
 
 .header-lang-toggle .lang-seg:hover,
 .header-lang-toggle .lang-seg:focus-visible{
 	outline: none;
-	background: rgba(255, 255, 255, 0.08);
+	transform: translateY(-1px);
 }
 
 .header-lang-toggle .lang-seg.active{
-	background: var(--accent-color);
 	color: var(--primary-color);
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+	transform: translateY(0);
 }
 
 /* Hero: language row + label (same toggle as header) */
@@ -6542,7 +6565,7 @@ header.main-header .header-sticky.active .header-lang-toggle{
 
 header.main-header .header-sticky.active .header-lang-toggle .lang-seg:hover,
 header.main-header .header-sticky.active .header-lang-toggle .lang-seg:focus-visible{
-	background: rgba(0, 0, 0, 0.06);
+	background: transparent;
 }
 
 header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
@@ -6551,6 +6574,10 @@ header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
 }
 
 @media (max-width: 991px){
+	.page-course-single > .container > .row{
+		flex-direction: column-reverse;
+	}
+
 	.main-header .navbar .container-fluid{
 		display: flex;
 		align-items: center;
