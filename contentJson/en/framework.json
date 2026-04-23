@@ -1,0 +1,119 @@
+{
+    "frameworkPage": {
+      "hero": {
+        "tagHtml": "The KaramSetu <span>Framework</span>",
+        "headlineHtml": "India's First Structured Behavioural Training <span>Framework for Drivers.</span>"
+      },
+  
+      "intro": {
+        "descriptionHtml": "The KaramSetu Driver Upskilling Framework is built around five core training pillars — each addressing a critical gap in how India's drivers currently operate and how they are perceived.<br><br>Together, these five pillars cover everything a driver needs to become a certified, trusted, and professional service provider — beyond simply knowing how to drive."
+      },
+  
+      "eligibility": {
+        "headlineHtml": "Who Can <span>Enrol</span>",
+        "description": "KaramSetu is open to all professional drivers across India — taxi drivers, app-based drivers, commercial drivers, household drivers, and government-linked drivers.",
+        "requirements": [
+          "Valid Driving Licence (DL) and relevant vehicle permits",
+          "Basic identity verification (Aadhaar and police verification)",
+          "Minimum driving experience as defined by your employer or aggregator",
+          "Basic mobile usage capability for digital learning access",
+          "No major criminal or safety violations on record",
+          "Commitment to professional conduct and compliance standards"
+        ]
+      },
+  
+      "learning": {
+        "headlineHtml": "What Every Driver Will <span>Learn</span>",
+  
+        "pillars": [
+          {
+            "title": "Pillar 1 — Behaviour & Professional Attitude",
+            "points": [
+              "Understanding the role and responsibility of a professional driver",
+              "Punctuality, discipline, and accountability in daily work",
+              "Emotional control — handling frustration, pressure, and difficult passengers calmly",
+              "Conflict resolution and de-escalation techniques",
+              "Respectful conduct in public spaces and with diverse passengers",
+              "Attitude towards women, senior citizens, and children"
+            ]
+          },
+          {
+            "title": "Pillar 2 — Communication Skills",
+            "points": [
+              "Polite and professional greeting etiquette at the start of every trip",
+              "How to communicate route changes, delays, or issues clearly",
+              "Handling passenger complaints without escalation",
+              "Language sensitivity — tone, volume, and choice of words",
+              "Basic multilingual communication for diverse passenger interactions",
+              "Digital communication — responding to platform messages professionally"
+            ]
+          },
+          {
+            "title": "Pillar 3 — Grooming & Personal Hygiene",
+            "points": [
+              "Personal grooming standards — dress, hair, and hygiene expectations",
+              "Vehicle cleanliness protocols — interior, exterior, and odour management",
+              "Daily and weekly hygiene checklists for drivers and their vehicles",
+              "Seasonal and context-specific presentation (corporate trips, airport pickups, night rides)",
+              "What to do and what to avoid in terms of personal habits during a trip"
+            ]
+          },
+          {
+            "title": "Pillar 4 — Safety & Security Awareness",
+            "points": [
+              "Women and child safety — conduct, communication, and zero-tolerance standards",
+              "Night ride protocols and safe drop practices",
+              "Household and private driver security awareness",
+              "Emergency response — accidents, medical situations, and helpline coordination",
+              "Defensive driving mindset and passenger-first safety culture",
+              "Understanding and respecting passenger boundaries"
+            ]
+          },
+          {
+            "title": "Pillar 5 — Rights & Duties of Drivers",
+            "points": [
+              "Legal rights of drivers under Indian motor vehicle and labour law",
+              "Passenger safety obligations — from pickup to safe drop",
+              "Documentation and permit compliance — licence, insurance, PUC, fitness",
+              "Understanding aggregator compliance and platform policies",
+              "Anti-discrimination obligations — equal service regardless of gender, religion, or location",
+              "Traffic law awareness — mobile use, substance use, and enhanced penalty education",
+              "Grievance handling and fair billing practices"
+            ]
+          }
+        ]
+      },
+  
+      "features": {
+        "headlineHtml": "Key <span>Features</span>",
+       "items": [
+  {
+    "label": "Course Type",
+    "value": "Audio-Visual Short Modules"
+  },
+  {
+    "label": "Module Length",
+    "value": "15–20 Minutes Per Module"
+  },
+  {
+    "label": "Platform",
+    "value": "Mobile"
+  },
+  {
+    "label": "Languages",
+    "value": "Hindi & English"
+  },
+  {
+    "label": "Certification",
+    "value": "Aadhaar-Verified Digital Certificate"
+  }
+]
+      },
+  
+      "cta": {
+        "tag": "Start Your Certification Journey",
+        "headlineHtml": "One Program. A Lifetime of <span>Professional Recognition.</span>",
+        "button": "Register Now"
+      }
+    }
+  }

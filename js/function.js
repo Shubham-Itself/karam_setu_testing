@@ -18,13 +18,13 @@
 		function setHeaderHeight(){
 	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
 		}	
+
+		setHeaderHeight();
+		$("header .header-sticky").addClass("active").removeClass("hide");
 	
 		$window.on("scroll", function() {
-			var fromTop = $(window).scrollTop();
 			setHeaderHeight();
-			var headerHeight = $('header .header-sticky').outerHeight()
-			$("header .header-sticky").toggleClass("hide", (fromTop > headerHeight + 100));
-			$("header .header-sticky").toggleClass("active", (fromTop > 600));
+			$("header .header-sticky").addClass("active").removeClass("hide");
 		});
 	}	
 	

@@ -1,0 +1,41 @@
+{
+    "footer": {
+      "about": {
+        "logo": "images/footer-logo.svg",
+        "subHeading": "भारत का पहला और एकमात्र डिजिटल स्टार्टअप (सॉफ्ट स्किल्स पर)",
+        "description": "करमसेतु भारत का पहला संरचित सॉफ्ट स्किल्स और अपस्किलिंग सर्टिफिकेशन प्लेटफॉर्म है, जो ड्राइवरों के लिए बनाया गया है — एक भरोसेमंद, पेशेवर और सम्मानजनक ड्राइवर इकोसिस्टम का निर्माण करते हुए।"
+      },
+  
+      "quickLinks": {
+        "title": "त्वरित लिंक",
+        "items": [
+          { "label": "हमारे बारे में", "url": "about.html" },
+          { "label": "हमारा फ्रेमवर्क", "url": "framework.html" },
+          { "label": "ड्राइवरों के लिए", "url": "driver.html" },
+          { "label": "सहयोग", "url": "collaboration.html" },
+          { "label": "प्रश्नोत्तर", "url": "faq.html" }
+        ]
+      },
+  
+      "contact": {
+        "title": "संपर्क करें",
+        "website": "www.karamsetu.org",
+        "email": "info@karamsetu.org",
+        "timing": "सोमवार – शुक्रवार, सुबह 10 बजे – शाम 6 बजे (IST)",
+        "location": {
+          "label": "दिल्ली",
+          "map": "https://maps.google.com/?q=Delhi"
+        }
+      },
+  
+      "bottomBar": {
+        "left": "© 2025 करमसेतु। सर्वाधिकार सुरक्षित। | भारत का पहला और एकमात्र डिजिटल स्टार्टअप (सॉफ्ट स्किल्स पर)",
+        "social": [
+          { "name": "LinkedIn", "url": "#" },
+          { "name": "Twitter/X", "url": "#" },
+          { "name": "Instagram", "url": "#" },
+          { "name": "YouTube", "url": "#" }
+        ]
+      }
+    }
+  }

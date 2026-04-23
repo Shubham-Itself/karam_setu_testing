@@ -1,0 +1,41 @@
+{
+    "footer": {
+      "about": {
+        "logo": "images/footer-logo.svg",
+        "subHeading": "India’s first and only Digital Startup on Softskills",
+        "description": "KaramSetu is India's first structured soft skills and upskilling certification platform for drivers — building a trusted, professional, and dignified driver ecosystem across the nation."
+      },
+  
+      "quickLinks": {
+        "title": "Quick Links",
+        "items": [
+          { "label": "About Us", "url": "about.html" },
+          { "label": "Our Framework", "url": "framework.html" },
+          { "label": "For Drivers", "url": "driver.html" },
+          { "label": "Collaborations", "url": "collaboration.html" },
+          { "label": "FAQs", "url": "faq.html" }
+        ]
+      },
+  
+      "contact": {
+        "title": "Get in Touch",
+        "website": "www.karamsetu.org",
+        "email": "info@karamsetu.org",
+        "timing": "Monday – Friday, 10 AM – 6 PM IST",
+        "location": {
+          "label": "Delhi",
+          "map": "https://maps.google.com/?q=Delhi"
+        }
+      },
+  
+      "bottomBar": {
+        "left": "© 2025 KaramSetu. All Rights Reserved. | India’s first and only Digital Startup on Softskills",
+        "social": [
+          { "name": "LinkedIn", "url": "#" },
+          { "name": "Twitter/X", "url": "#" },
+          { "name": "Instagram", "url": "#" },
+          { "name": "YouTube", "url": "#" }
+        ]
+      }
+    }
+  }

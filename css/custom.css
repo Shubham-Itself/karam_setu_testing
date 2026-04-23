@@ -96,7 +96,7 @@ body{
 
 p{
 	
-	line-height: 1.6em;
+	line-height: 1.5em;
 	margin-bottom: 1.4em;
 }
 
@@ -812,7 +812,7 @@ header.main-header .header-sticky.active{
 
 .hero-section{
 	position: relative;
-	background-image: url('../images/hero-bg.jpg');
+	background-image: url('../karamsetuimage/Home-Banner.jpeg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -827,7 +827,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	left: 0;
 	background: var(--primary-color);
-	opacity: 70%;
+	opacity: 80%;
 	z-index: 1;
 }
 
@@ -1505,7 +1505,7 @@ header.main-header .header-sticky.active{
 }
 
 .what-we-do-list{
-    padding: 50px;
+    padding: 25px;
     background: var(--white-color);
     box-shadow: 0px 20px 50px 0px #0000000D;
 }
@@ -1524,8 +1524,8 @@ header.main-header .header-sticky.active{
     background-position: left top;
     background-size: 24px auto;
     border-bottom: 1px solid var(--divider-color);
-    padding: 0 0 30px 40px;
-	margin-bottom: 30px;
+    padding: 0 0 20px 30px;
+	margin-bottom: 15px;
 }
 
 .what-we-do-list ul li:last-child{
@@ -1550,7 +1550,7 @@ header.main-header .header-sticky.active{
     align-items: center;
 	justify-content: space-between;
     gap: 20px 40px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .what-we-do-info h3{
@@ -1740,7 +1740,7 @@ header.main-header .header-sticky.active{
 .pricing-item{
 	background: var(--secondary-color);
 	height: calc(100% - 30px);
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	padding: 40px;
 }
 
@@ -1755,9 +1755,9 @@ header.main-header .header-sticky.active{
 }
 
 .pricig-body{
-	border-bottom: 1px solid var(--divider-color);
+	/* border-bottom: 1px solid var(--divider-color);
 	margin-bottom: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 30px; */
 }
 
 .pricig-body ul{
@@ -1880,26 +1880,15 @@ header.main-header .header-sticky.active{
 
 .book-appointment{
 	position: relative;
-	background: url('../images/book-appointment-bg.jpg');
+	/* background: url('../images/book-appointment-bg.jpg'); */
+	background-color: white;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 100px 0;
 }
 
-.book-appointment::before{
-	content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--primary-color);
-	opacity: 70%;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
+
 
 .book-appointment .container{
 	position: relative;
@@ -1912,7 +1901,7 @@ header.main-header .header-sticky.active{
 
 .book-appointment-content .section-title h3,
 .book-appointment-content .section-title h2{
-    color: var(--white-color);
+    color: var(--primary-color);
 }
 
 .appointment-info-list{
@@ -2011,7 +2000,7 @@ header.main-header .header-sticky.active{
 
 .testimonial-item{
 	border: 1px solid var(--divider-color);
-	padding: 30px;
+	padding: 29px;
 }
 
 .testimonial-header{
@@ -2564,7 +2553,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	left: 0;
 	background-color: var(--primary-color);
-	opacity: 70%;
+	opacity: 100%;
 }
 
 .page-header-box{
@@ -3178,7 +3167,7 @@ header.main-header .header-sticky.active{
 
 .sidebar-cta-box{
     position: relative;
-    background: url('../images/sidebar-cta-bg.jpg'), no-repeat;
+    background: url('../karamsetuimage/Our\ Framework-\ Side\ bar\ CTA.jpeg'), no-repeat;
     background-size: cover;
     padding: 40px 30px;
 }
@@ -3775,6 +3764,19 @@ header.main-header .header-sticky.active{
     padding-bottom: 25px;
 }
 
+.listAgain{
+	font-family: var(--accent-font) !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 1.4em !important;
+    text-transform: capitalize !important;
+    color: var(--primary-color) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+   
+}
+
 .course-category-list ul li:last-child{
     margin-bottom: 0;
     padding-bottom: 0;
@@ -4264,10 +4266,10 @@ header.main-header .header-sticky.active{
 
 .contact-us-content{
 	position: relative;
-	background: url('../images/contact-us-image.jpg') no-repeat;
+	background: black;
 	background-position: center center;
 	background-size: cover;
-	padding: 80px;
+	padding: 40px;
 }
 
 .contact-us-content:before{
@@ -4277,7 +4279,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(270.39deg, rgba(16, 15, 17, 0) 0.34%, #100F11 99.66%);
+
 	z-index: 0;
 }
 
@@ -6472,6 +6474,10 @@ html.lang-hi body{
 	gap: 2px;
 }
 
+.mobile-header-lang-toggle{
+	display: none;
+}
+
 .header-lang-toggle .lang-seg{
 	flex: 0 0 auto;
 	min-width: 52px;
@@ -6545,8 +6551,37 @@ header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
 }
 
 @media (max-width: 991px){
+	.main-header .navbar .container-fluid{
+		display: flex;
+		align-items: center;
+	}
+
+	.mobile-header-lang-toggle{
+		display: inline-flex;
+		align-items: center;
+		height: 38px;
+		padding: 2px;
+		gap: 2px;
+		margin-left: auto;
+		margin-right: 12px;
+		margin-bottom: 0;
+	}
+
+	.mobile-header-lang-toggle .lang-seg{
+		min-width: 44px;
+		padding: 6px 10px;
+		font-size: 12px;
+		line-height: 1;
+	}
+
 	.header-lang-toggle{
 		margin-right: 0;
+		margin-top: 14px;	
 		margin-bottom: 12px;
+		margin-right: 10px;
+	}
+
+	.main-menu > .header-lang-toggle:not(.mobile-header-lang-toggle){
+		margin-top: 12px;
 	}
 }

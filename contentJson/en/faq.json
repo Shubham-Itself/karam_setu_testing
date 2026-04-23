@@ -1,0 +1,85 @@
+{
+    "faqPage": {
+      "hero": {
+        "tagHtml": "FAQs <span></span>",
+        "headlineHtml": "Everything You Want to Know About <span>KaramSetu.</span>"
+      },
+  
+      "general": {
+        "tagHtml": "General Questions About <span>KaramSetu</span>",
+        "items": [
+          {
+            "q": "What is KaramSetu?",
+            "a": "KaramSetu is India's first structured soft skills and upskilling certification platform for drivers. It trains and certifies taxi, commercial, household, and government-linked drivers in five core areas — behaviour, communication, grooming, safety, and legal literacy — through a mobile-first, digital learning platform."
+          },
+          {
+            "q": "Is KaramSetu a government program?",
+            "a": "KaramSetu is an independent initiative designed to align with and complement India's national skilling mission and road transport policy. We actively collaborate with government bodies and are structured to be adopted as part of state and national-level transport frameworks."
+          },
+          {
+            "q": "What makes KaramSetu different from other driver training programs?",
+            "a": "Most driver training in India focuses on driving ability — not professional conduct. KaramSetu is specifically designed around soft skills, behavioural standards, legal literacy, and safety awareness. It is mobile-first, digitally certified, Aadhaar-verified, and built for long-term, recurring impact — not a one-time workshop."
+          },
+          {
+            "q": "In which cities is KaramSetu available?",
+            "a": "KaramSetu is currently in its pilot and early rollout phase across select major cities. The program will expand to 10+ states over a five-year phased rollout. Register your interest and our team will update you on availability in your city."
+          },
+          {
+            "q": "What languages is the program available in?",
+            "a": "The program is currently available in Hindi and English. Regional language rollout is planned as the program scales across different states."
+          }
+        ]
+      },
+  
+      "eligibility": {
+        "tagHtml": "Eligibility & Program <span>Details</span>",
+        "items": [
+          {
+            "q": "Who is eligible to enrol in KaramSetu?",
+            "a": "Any professional driver in India is eligible — taxi drivers, app-based drivers (Ola, Uber, Rapido), commercial drivers, household drivers, and government-linked drivers. You need a valid driving licence, an Aadhaar card, and a smartphone with basic internet access."
+          },
+          {
+            "q": "How much does it cost to enrol?",
+            "a": "For eligible drivers in pilot cities and CSR-funded cohorts, the program is available at no cost. Subsidised and free access will be expanded as the program scales nationally. Our team will confirm the fee structure — if any — when you register."
+          },
+          {
+            "q": "How long does the program take to complete?",
+            "a": "Each module is 15–20 minutes long. The full program — covering all five pillars — can be completed at your own pace. Most drivers complete it within a few weeks without any disruption to their daily work schedule."
+          },
+          {
+            "q": "What if I have low literacy or am not comfortable reading?",
+            "a": "KaramSetu is designed for all literacy levels. Lessons are audio-visual — you learn by watching and listening, not just reading. The platform is simple to navigate even for first-time smartphone users."
+          },
+          {
+            "q": "What happens if I do not pass the assessment?",
+            "a": "You can retake the assessment. KaramSetu is not designed to fail drivers — it is designed to build them. You will have as many attempts as you need to complete each pillar successfully."
+          },
+          {
+            "q": "What do I receive after completing the program?",
+            "a": "You receive a digitally verifiable KaramSetu certificate — linked to your Aadhaar identity and shareable with platforms, passengers, and employers. It is a recognised proof of your professional skills and conduct standards."
+          },
+          {
+            "q": "How long is the certificate valid?",
+            "a": "Your KaramSetu certificate is valid for 1 year. After that, you will complete a short refresher module to renew your certification and keep your professional status active."
+          },
+          {
+            "q": "Will this certificate help me earn more?",
+            "a": "Yes. Certified drivers consistently receive higher ratings, more ride allocations, and access to premium segments — corporate rides, airport transfers, and outstation bookings — which pay significantly more than standard trips."
+          },
+          {
+            "q": "How do I register?",
+            "a": "Visit the registration page on our website, fill in your details, and our team will guide you through the next steps. Registration takes less than five minutes."
+          }
+        ]
+      },
+  
+      "cta": {
+        "headlineHtml": "Still Have a <span>Question?</span>",
+        "description": "If you did not find what you were looking for, our team is happy to help. Write to us and we will get back to you within 24 hours.",
+        "buttons": {
+          "primary": "Write to Us",
+          "secondary": "Book a Meeting"
+        }
+      }
+    }
+  }

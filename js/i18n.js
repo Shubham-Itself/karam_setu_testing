@@ -73,6 +73,14 @@
 			fetch("contentJson/" + lang + "/about.json"),
 			fetch("contentJson/" + lang + "/driver.json"),
 			fetch("contentJson/" + lang + "/collab.json"),
+			fetch("contentJson/" + lang + "/framework.json"),
+			fetch("contentJson/" + lang + "/faq.json"),
+			fetch("contentJson/" + lang + "/footer.json"),
+			fetch("contentJson/" + lang + "/contact.json"),
+
+
+
+
 		])
 		.then(function (responses) {
 			return Promise.all(responses.map(function (r) {
@@ -82,10 +90,10 @@
 				return r.json();
 			}));
 		})
-		.then(function ([commonData, pageData,aboutData , driverData , collabData]) {
+		.then(function ([commonData, pageData,aboutData , driverData , collabData , frameData,faqData,footerData , contactData]) {
 	
 			// 🔥 merge both JSONs
-			var data = Object.assign({}, commonData, pageData ,aboutData , driverData , collabData);
+			var data = Object.assign({}, commonData, pageData ,aboutData , driverData , collabData , frameData, faqData ,footerData , contactData);
 	
 			// ✅ TEXT / HTML
 			document.querySelectorAll("[data-i18n]").forEach(function (el) {

@@ -45,7 +45,7 @@
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<header class="main-header">
+    <header class="main-header">
         <div class="header-sticky bg-section">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -59,53 +59,42 @@
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item submenu"><a class="nav-link" href="./">Home</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home - Main</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
-                                    </ul>
+                                <li class="nav-item " ><a class="nav-link" href="./" data-i18n="nav.home" >Home</a>
+                                   
                                 </li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
+                                <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About Us</a>
+                                <li class="nav-item"><a class="nav-link" href="framework.html" data-i18n="nav.framework">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="driver.html" data-i18n="nav.drivers">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="collaboration.html" data-i18n="nav.collaborations">Blog</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#" data-i18n="nav.resources">Pages</a>
                                     <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="course-single.html">Courses details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="service-single.html" data-i18n="nav.documents">Service Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog-single.html" data-i18n="nav.media">Blog Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="courses.html" data-i18n="nav.faqs">Courses</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="course-single.html" data-i18n="nav.caseStudies">Courses details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="course-single.html" data-i18n="nav.testimonials">Courses details</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="book-appointment.html">Book Appointment</a></li>                      
+                                <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
+                                                
                             </ul>
+                        </div>
+    
+                        <!-- Language toggle: English / Hindi -->
+                        <div class="header-lang-toggle" role="group" aria-label="Choose language">
+                            <button type="button" class="lang-seg" data-lang="en" title="English" aria-pressed="false">EN</button>
+                            <button type="button" class="lang-seg" data-lang="hi" title="हिंदी" aria-pressed="false">हिंदी</button>
                         </div>
                         
                         <!-- Header Contact Box Start -->
                         <div class="header-contact-box">
                             <!-- Header Contact Btn Start -->
-                            <div class="header-contact-btn">
-                                <div class="icon-box">
-                                    <img src="images/icon-phone.svg" alt="">
-                                </div>
-                                <div class="header-contact-now-content">
-                                    <h3><a href="tel:+123456789">(+91) 123 456 789</a></h3>
-                                </div>
-                            </div>
+                          
                             <!-- Header Contact Btn End -->
-
+    
                             <!-- Header Booking Button Start -->
                             <div class="header-booking-btn">
-                                <a href="book-appointment.html" class="btn-default">join us today</a>
+                                <a href="book-appointment.html" class="btn-default" data-i18n="nav.getCertified">join us today</a>
                             </div>
                             <!-- Header Booking Button End -->
                         </div>
@@ -128,13 +117,8 @@
                     <div class="col-lg-12">
                         <!-- Page Header Box Start -->
                         <div class="page-header-box">
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Frequently asked <span>question</span></h1>
-                            <nav class="wow fadeInUp">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="./">home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">FAQs</li>
-                                </ol>
-                            </nav>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque" data-i18n="faqPage.hero.tagHtml" data-i18n-html="true">Frequently asked <span>question</span></h1>
+                            <p data-i18n="faqPage.hero.headlineHtml" data-i18n-html="true" class="whites"></p>
                         </div>
                         <!-- Page Header Box End -->
                     </div>
@@ -193,289 +177,169 @@
                     <!-- Page FAQs Catagery Start -->
                     <div class="page-faqs-catagery">
                         <!-- FAQs section start -->
-                        <div class="page-faq-accordion page-single-faqs" id="faq_1">
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Driving <span>Lessons</span></h2>
-                            </div>
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion" id="accordion">
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading1">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            How long is each driving lesson?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="heading2">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            Do I need any prior experience to start lessons?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            Will I get the same instructor for every lesson?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading4">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            Can I book lessons on weekends?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- FAQs section End -->
-
+                      
                         <!-- FAQs section start -->
-                        <div class="page-faq-accordion page-single-faqs" id="faq_2">
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">License <span>Process</span></h2>
-                            </div>
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion" id="accordion1">
-                                
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading5">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                            What documents are required for a driving license?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion1">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="heading6">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                            How do I apply for a driving license?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6" data-bs-parent="#accordion1">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+<div class="page-faq-accordion page-single-faqs" id="faq_1">
+    <div class="section-title">
+        <h2 data-i18n="faqPage.general.tagHtml" data-i18n-html="true">General Questions</h2>
+    </div>
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading7">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                            How long does it take to get a driving license?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion1">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+    <div class="faq-accordion" id="accordion">
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading8">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                                            Can I take my driving test without professional lessons?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion1">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- FAQs section End -->
+        <!-- Item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                    <span data-i18n="faqPage.general.items.0.q"></span>
+                </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.general.items.0.a"></p>
+                </div>
+            </div>
+        </div>
 
-                        <!-- FAQs section start -->
-                        <div class="page-faq-accordion page-single-faqs" id="faq_3">
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Safety & <span>Regulations</span></h2>
-                            </div>
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion" id="accordion2">
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading9">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                                            How long is each driving lesson?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion2">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+        <!-- Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                    <span data-i18n="faqPage.general.items.1.q"></span>
+                </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.general.items.1.a"></p>
+                </div>
+            </div>
+        </div>
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading10">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                                            Do I need any prior experience to start lessons?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse10" class="accordion-collapse collapse show" aria-labelledby="heading10" data-bs-parent="#accordion2">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                                    <h2 class="accordion-header" id="heading11">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
-                                            Will I get the same instructor for every lesson?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordion2">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+        <!-- Item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                    <span data-i18n="faqPage.general.items.2.q"></span>
+                </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.general.items.2.a"></p>
+                </div>
+            </div>
+        </div>
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
-                                    <h2 class="accordion-header" id="heading12">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                                            Can I book lessons on weekends?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordion2">
-                                        <div class="accordion-body">
-                                            <p>No, beginners are welcome! Our courses are designed for all skill levels.No, beginners are welcome! Our courses are designed for all skill levels.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- FAQs section End -->
+        <!-- Item 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                    <span data-i18n="faqPage.general.items.3.q"></span>
+                </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.general.items.3.a"></p>
+                </div>
+            </div>
+        </div>
 
-                        <!-- FAQs section start -->
-                        <div class="page-faq-accordion page-single-faqs" id="faq_4">
-                            <div class="section-title">
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Payment & <span>Pricing</span></h2>
-                            </div>
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion" id="accordion3">
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading13">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                                            Do you offer any discounts or packages?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordion3">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+        <!-- Item 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                    <span data-i18n="faqPage.general.items.4.q"></span>
+                </button>
+            </h2>
+            <div id="collapse5" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.general.items.4.a"></p>
+                </div>
+            </div>
+        </div>
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="heading14">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                                            What payment methods do you accept?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading14" data-bs-parent="#accordion3">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
+    </div>
+</div>
 
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading15">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
-                                            Is there a refund policy if I cancel my lessons?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordion3">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->		
-                            
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading16">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
-                                            Do I need to pay the full amount upfront?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordion3">
-                                        <div class="accordion-body">
-                                            <p>Our pricing is transparent and affordable. Please visit our "Pricing" section for detailed information on our lesson packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- FAQs section End -->
+
+<!-- FAQs section start -->
+<div class="page-faq-accordion page-single-faqs" id="faq_2">
+    <div class="section-title">
+        <h2 data-i18n="faqPage.eligibility.tag">Eligibility</h2>
+    </div>
+
+    <div class="faq-accordion" id="accordion1">
+
+        <!-- Item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                    <span data-i18n="faqPage.eligibility.items.0.q"></span>
+                </button>
+            </h2>
+            <div id="collapse6" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.eligibility.items.0.a"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+                    <span data-i18n="faqPage.eligibility.items.1.q"></span>
+                </button>
+            </h2>
+            <div id="collapse7" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.eligibility.items.1.a"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
+                    <span data-i18n="faqPage.eligibility.items.2.q"></span>
+                </button>
+            </h2>
+            <div id="collapse8" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.eligibility.items.2.a"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
+                    <span data-i18n="faqPage.eligibility.items.3.q"></span>
+                </button>
+            </h2>
+            <div id="collapse9" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.eligibility.items.3.a"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10">
+                    <span data-i18n="faqPage.eligibility.items.4.q"></span>
+                </button>
+            </h2>
+            <div id="collapse10" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p data-i18n="faqPage.eligibility.items.4.a"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
                     </div> 
                     <!-- Page FAQs Catagery End -->
                 </div>
@@ -630,5 +494,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+    <script src="js/i18n.js"></script>
 </body>
 </html>

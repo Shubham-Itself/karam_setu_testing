@@ -48,7 +48,72 @@
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<div id="header"></div>
+    <header class="main-header active-sticky-header">
+        <div class="header-sticky bg-section">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="./">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item " ><a class="nav-link" href="./" data-i18n="nav.home" >Home</a>
+                                   
+                                </li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav.about">About Us</a>
+                                <li class="nav-item"><a class="nav-link" href="framework.html" data-i18n="nav.framework">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="driver.html" data-i18n="nav.drivers">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="collaboration.html" data-i18n="nav.collaborations">Blog</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#" data-i18n="nav.resources">Pages</a>
+                                    <ul>                                        
+                                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav.documents">Service Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav.media">Blog Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="faqs.html" data-i18n="nav.faqs">Courses</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav.caseStudies">Courses details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav.testimonials">Courses details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
+                                                
+                            </ul>
+                        </div>
+    
+                        <!-- Language toggle: English / Hindi -->
+                        <div class="header-lang-toggle" role="group" aria-label="Choose language">
+                            <button type="button" class="lang-seg" data-lang="en" title="English" aria-pressed="false">EN</button>
+                            <button type="button" class="lang-seg" data-lang="hi" title="हिंदी" aria-pressed="false">हिंदी</button>
+                        </div>
+                        
+                        <!-- Header Contact Box Start -->
+                        <div class="header-contact-box">
+                            <!-- Header Contact Btn Start -->
+                          
+                            <!-- Header Contact Btn End -->
+    
+                            <!-- Header Booking Button Start -->
+                            <div class="header-booking-btn">
+                                <a href="book-appointment.html" class="btn-default" data-i18n="nav.getCertified">join us today</a>
+                            </div>
+                            <!-- Header Booking Button End -->
+                        </div>
+                        <!-- Header Contact Box End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="mobile-header-lang-toggle header-lang-toggle" role="group" aria-label="Choose language">
+                        <button type="button" class="lang-seg" data-lang="en" title="English" aria-pressed="false">EN</button>
+                        <button type="button" class="lang-seg" data-lang="hi" title="हिंदी" aria-pressed="false">हिंदी</button>
+                    </div>
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+	</header>
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
@@ -66,7 +131,7 @@
                                 <h3 class="wow fadeInUp" data-i18n="hero.tagline"></h3>
                                 <h1 class="text-anime-style-2" data-cursor="-opaque" data-i18n="hero.headlineHtml" data-i18n-html="true">From Driver to <span>Certified Professional</span>.</h1>
                                 <p class="wow fadeInUp" data-wow-delay="0.2s" data-i18n="hero.subheadline">KaramSetu is India's first structured soft skills and upskilling certification program for taxi, commercial, and household drivers.</p>
-                                <p class="wow fadeInUp" data-wow-delay="0.3s" data-i18n="hero.description">Get certified. Build trust. Get more rides. Earn more.</p>
+                                <!-- <p class="wow fadeInUp" data-wow-delay="0.3s" data-i18n="hero.description">Get certified. Build trust. Get more rides. Earn more.</p> -->
                             </div>
                             <!-- Section Title End -->
     
@@ -84,139 +149,53 @@
         </div>
 
         <!-- Hero Cta Section Start -->
-        <div class="hero-cta-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Hero CTA Box Start -->
-                        <div class="hero-cta-box">
-                            <!-- Hero Intro Video Image Start -->
-                            <div class="hero-intro-video-image">
-                                <figure class="image-anime reveal">
-                                    <img src="images/hero-intro-video-image.jpg" alt="">
-                                </figure>
-
-                                <!-- Video Play Button Start -->
-                                <div class="video-play-button btn-effect">
-                                    <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <!-- Video Play Button End -->
-                            </div>
-                            <!-- Hero Intro Video Image End -->
-
-                            <!-- Hero Cta Content Start -->
-                            <div class="hero-cta-contetnt">
-                                <!-- Hero Cta Item Start -->
-                                <div class="hero-cta-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="images/icon-hero-cta-1.svg" alt="">
-                                    </div>
-                                    <div class="hero-cta-item-content">
-                                        <h3 data-i18n="hero.ctaCards.0.title">Structured soft skills &amp; certification</h3>
-                                        <p data-i18n="hero.ctaCards.0.desc">For taxi, commercial, and household drivers — building professionalism and trust nationwide.</p>
-                                    </div>
-                                </div>
-                                <!-- Hero Cta Item End -->
-
-                                <!-- Hero Cta Item Start -->
-                                <div class="hero-cta-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="icon-box">
-                                        <img src="images/icon-hero-cta-2.svg" alt="">
-                                    </div>
-                                    <div class="hero-cta-item-content">
-                                        <h3 data-i18n="hero.ctaCards.1.title">Trust, rides &amp; earnings</h3>
-                                        <p data-i18n="hero.ctaCards.1.desc">Get certified. Build trust. Get more rides. Earn more.</p>
-                                    </div>
-                                </div>
-                                <!-- Hero Cta Item End -->
-                            </div>
-                            <!-- Hero Cta Content End -->
-                        </div>
-                        <!-- Hero CTA Box End -->
-                    </div>
-
-                    <div class="col-lg-12">
-                        <!-- Testimonial Company Slider Start -->
-                        <div class="hero-client-slider">
-                            <div class="swiper">
-                                <div class="swiper-wrapper">
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.0.value"></p>
-                                                <p data-i18n="stats.0.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-                                    
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.1.value"></p>
-                                                <p data-i18n="stats.1.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.2.value"></p>
-                                                <p data-i18n="stats.2.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.0.value"></p>
-                                                <p data-i18n="stats.0.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.1.value"></p>
-                                                <p data-i18n="stats.1.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-
-                                    <!-- Company Logo Start -->
-                                    <div class="swiper-slide">
-                                        <div class="company-logo">
-                                            <div class="client-logo-text">
-                                                <p data-i18n="stats.2.value"></p>
-                                                <p data-i18n="stats.2.label"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Company Logo End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Company Slider End -->
-                    </div>
+       <div style="padding-inline: 15px;">
+        <div class="course-navigate-info">
+            <!-- Course Navigate Info Item Start -->
+            <div class="course-navigate-info-item">
+                <div class="icon-box">
+                    <img src="images/icon-service-4.svg" alt="">
+                </div>
+                <div class="course-navigate-item-content">
+                    <h3><b><span data-i18n="stats.0.value">9.25</span><span data-i18n="impact.stats.0.suffix"> Lakh+</span></b></h3>
+                    <p data-i18n="stats.0.label">Drivers to be certified by Year 5</p>
                 </div>
             </div>
-        </div>
+            <!-- Course Navigate Info Item End -->
+            
+            <!-- Course Navigate Info Item Start -->
+            <div class="course-navigate-info-item">
+                <div class="icon-box">
+                    <img src="images/icon-service-2.svg" alt="">
+                </div>
+                <div class="course-navigate-item-content">
+                    <h3><b><span  data-i18n="stats.1.value">6</span><span data-i18n="impact.stats.1.suffix"></span></b></h3>
+                    <p data-i18n="stats.1.label">Phased rollout stages across India</p>
+                </div>
+            </div>
+            <!-- Course Navigate Info Item End -->
+            <div class="course-navigate-info-item">
+                <div class="icon-box">
+                    <img src="images/icon-service-4.svg" alt="">
+                </div>
+                <div class="course-navigate-item-content">
+                    <h3><b><span  data-i18n="stats.2.value">10</span><span data-i18n="impact.stats.2.suffix">+</span></b></h3>
+                    <p data-i18n="stats.2.label">States covered in the expansion plan</p>
+                </div>
+            </div>
+            
+            <div class="course-navigate-info-item">
+                <div class="icon-box">
+                    <img src="images/icon-service-2.svg" alt="">
+                </div>
+                <div class="course-navigate-item-content">
+                    <h3><b><span  data-i18n=".stats.3.value">1</span><span  data-i18n="impact.stats.3.suffix">st</span></b></h3>
+                    <p data-i18n="stats.3.label">National behavioural standard for drivers in India</p>
+                </div>
+            </div>
         <!-- Hero Cta Section End -->
     </div>
+       </div>
     <!-- Hero Section End -->
     <div class="driving-excellence parallaxie">
         <div class="container">
@@ -250,9 +229,9 @@
                                     <!-- <div class="excellence-body-counter">
                                         <h2><span class="counter">20</span>M+</h2>
                                     </div> -->
-                                <div class="excellence-counter-content">
+                                <div class="excellence-counter-content footer-contact-list">
                                     <!-- <h3>Master Urban Driving & Navigate Traffic</h3> -->
-                                    <p data-i18n="problem.quote"></p>
+                                    <p data-i18n="problem.quote" style="color: black;"></p>
                                 </div>
                             </div>
                             <!-- Excellence Counter Item End -->
@@ -267,9 +246,7 @@
                     <div class="driving-excellence-list">
                         <!-- Excellence Item Start -->
                         <div class="excellence-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-driving-excellence-1.svg" alt="">
-                            </div>
+                            
                             <div class="excellence-item-content">
                                 <h3 data-i18n="problem.cards.0.title"></h3>
                                 <p data-i18n="problem.cards.0.desc"></p>
@@ -279,9 +256,7 @@
 
                         <!-- Excellence Item Start -->
                         <div class="excellence-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-driving-excellence-2.svg" alt="">
-                            </div>
+                          
                             <div class="excellence-item-content">
                                 <h3 data-i18n="problem.cards.1.title"></h3>
                                 <p data-i18n="problem.cards.1.desc"></p>
@@ -291,9 +266,7 @@
 
                         <!-- Excellence Item Start -->
                         <div class="excellence-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="images/icon-driving-excellence-3.svg" alt="">
-                            </div>
+                            
                             <div class="excellence-item-content">
                                 <h3 data-i18n="problem.cards.2.title"></h3>
                                 <p data-i18n="problem.cards.2.desc"></p>
@@ -303,9 +276,7 @@
                          
                         <!-- Excellence Item Start -->
                         <div class="excellence-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="images/icon-driving-excellence-4.svg" alt="">
-                            </div>
+                            
                             <div class="excellence-item-content">
                                 <h3 data-i18n="problem.cards.3.title"></h3>
                                 <p data-i18n="problem.cards.3.desc"></p>
@@ -320,7 +291,7 @@
     </div>
 
      <!-- Our Core Value Section Start -->
-     <div class="our-core-value">
+     <div class="our-core-value" style="background: none;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -329,84 +300,30 @@
                         <div class="core-value-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp" data-i18n="about.tag"></h3>
+                                <h3 class="wow fadeInUp" data-i18n="about.tag">our core values</h3>
                                 <h2 class="text-anime-style-2" data-cursor="-opaque" data-i18n="about.headlineHtml" data-i18n-html="true">Guiding principles for safe & <span>responsible driving</span></h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s" data-i18n="about.description" data-i18n-html="true"></p>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s" data-i18n="about.description" data-i18n-html="true">Our Beginner Driver Course is designed for new drivers who are just starting their journey on the road.</p>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- Core Value Body Start -->
-                            <div class="core-value-body">
-                                <!-- Core Value Content Box Start -->
-                                <div class="core-value-content-box">
-                                    <!-- Core Value Item Start -->
-                                   
-                                    <!-- Core Value Item End -->
-
-                                    <!-- Core Value List Start -->
-                                    <div class="core-value-list wow fadeInUp" data-wow-delay="0.6s">
-                                        <ul>
-                                            <li data-i18n="about.highlights.0">Personalized Driving Lessons</li>
-                                            <li data-i18n="about.highlights.1">Certified Professional Instructors</li>
-                                            <li data-i18n="about.highlights.2">Certified Professional Instructors</li>
-                                            <li data-i18n="about.highlights.3">Certified Professional Instructors</li>
-                                        </ul>
-                                    </div>
-                                    <!-- Core Value List End -->
-
-                                    <!-- Core Value Button Start -->
-                                   
-                                    <!-- Core Value Button End -->
-                                </div>
-                                <!-- Core Value Content Box End -->
-
-                                <!-- Core Value Body Image Start -->
-                                <div class="core-value-body-img">
-                                    <figure class="image-anime reveal">
-                                        <img src="images/core-value-body-img.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <!-- Core Value Body Image End -->
-                            </div>
+                           
                             <!-- Core Value Body End -->
                         </div>
                         <!-- Core Value Content End -->
 
                         <!-- Core Value Image Start -->
                         <div class="core-value-image">
-                            <div class="what-we-do-img">
-                                <figure class="image-anime reveal">
-                                    <img src="images/what-we-do-img.jpg" alt="">
-                                </figure>
-                            </div>
-                            
                             <!-- Core Value Image Start -->
-                            <div class="student-experience-content">
-                                <!-- Section Title Start -->
-                                <div class="section-title">
-                                    <!-- <h3 class="wow fadeInUp" >student experience</h3> -->
-                                    <h2 class="text-anime-style-2" data-cursor="-opaque" data-i18n="about.certificate.title">Real stories from Our <span>successful learners</span></h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.2s" data-i18n="about.certificate.desc" data-i18n-html="true">Our Beginner Driver Course is designed for new drivers who are just starting their journey on the road.</p>
-                                </div>
-                                <!-- Section Title End -->
-        
-                                <div class="core-value-list wow fadeInUp" data-wow-delay="0.6s">
-                                    <ul>
-                                        <li data-i18n="about.certificate.tags.0">Personalized Driving Lessons</li>
-                                        <li data-i18n="about.certificate.tags.1">Certified Professional Instructors</li>
-                                        <li data-i18n="about.certificate.tags.2">Certified Professional Instructors</li>
-                                        <li data-i18n="about.certificate.tags.3">Certified Professional Instructors</li>
-                                    </ul>
-                                </div>
-        
-                                <!-- Student Experience Footer Start -->
-                               
-                                <!-- Student Experience Footer End -->
+                            <div class="core-value-img">
+                                <figure class="image-anime reveal">
+                                    <img src="karamsetuimage/Home-What is Karamsetu.jpeg" alt="">
+                                </figure>
                             </div>
                             <!-- Core Value Image End -->
 
                             <!-- Footer Contact list Start -->
-                            
+                          
                             <!-- Footer Contact list End -->
                         </div>
                         <!-- Core Value Image End -->
@@ -414,6 +331,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Our Core Value Section End -->
   
@@ -436,7 +354,7 @@
                         <!-- What We Do List Start -->
                         <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
                             <ul>
-                                <li data-i18n="pillars.items.0.title"></li>
+                                <li data-i18n="pillars.items.0.title" ></li>
                                 <li data-i18n="pillars.items.1.title"></li>
                                 <li data-i18n="pillars.items.2.title"></li>
                                 <li data-i18n="pillars.items.3.title"></li>
@@ -455,15 +373,15 @@
                         <!-- What We Do Img Start -->
                         <div class="what-we-do-img">
                             <figure class="image-anime reveal">
-                                <img src="images/what-we-do-img.jpg" alt="">
+                                <img src="karamsetuimage/Home- 5 Pillar.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- What We Do Img End -->
                         
                         <!-- What We Do Info Start -->
                         <div class="what-we-do-info wow fadeInUp" data-wow-delay="0.2s">
-                            <h3>start your journey to safe, confident driving</h3>
-                            <a href="book-appointment.html" class="btn-default">start learning</a>
+                            <h3 data-i18n="pillars.quoteText">start your journey to safe, confident driving</h3>
+                            <a href="book-appointment.html" class="btn-default" data-i18n="pillars.CTA">start learning</a>
                         </div>
                         <!-- What We Do Info End -->
                     </div>
@@ -497,9 +415,7 @@
                         <!-- Section Title Content End -->
     
                         <!-- Section Button Start -->
-                        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">contact us</a>
-                        </div>
+                       
                         <!-- Section Button End -->
                     </div>   
                     <!-- Section Content Button End -->
@@ -541,7 +457,7 @@
                     <!-- Why Choose Image Start -->
                     <div class="why-choose-image">
                         <figure> 
-                            <img src="images/why-choose-us-image.png" alt="">
+                            <img src="karamsetuimage/Home-For Drivers.jpeg" alt="">
                         </figure>
                     </div>
                     <!-- Why Choose Image End -->
@@ -613,7 +529,7 @@
                             <li data-i18n="audience.groups.0.points.0"></li>
                             <li data-i18n="audience.groups.0.points.1"></li>
                             <li data-i18n="audience.groups.0.points.2"></li>
-                            <li data-i18n="audience.groups.0.points.3"></li>
+                            
                             
                         </ul>
                     </div>
@@ -704,7 +620,7 @@
                         <!-- How It Work Image Start -->
                         <div class="how-it-work-image">
                             <figure class="image-anime reveal">
-                                <img src="images/how-it-work-image.jpg" alt="">
+                                <img src="karamsetuimage/Home-Your Path to certification.jpeg" alt="">
                             </figure>
                         </div>
                         <!-- How It Work Image End -->
@@ -772,7 +688,7 @@
    
 
    <!-- Our Pricing Section Start -->
-   <div class="our-pricing">
+   <div class="our-pricing" style="display: none;">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-12">
@@ -1122,7 +1038,7 @@
     
 
     <!-- Book Appointment Section Start -->
-    <div class="book-appointment parallaxie">
+    <div class="book-appointment ">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -1132,7 +1048,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp" data-i18n="cta.tag"></h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque" data-i18n="cta.headlineHtml" data-i18n-html="true">Book your basic driving lesson <span>today easily</span></h2>
-                            <p data-i18n="cta.description" class="wow fadeInUp whites" data-wow-delay="0.2s" ></p>
+                            <p data-i18n="cta.description" class="wow fadeInUp " data-wow-delay="0.2s" ></p>
                         </div>
                         <!-- Section Title End -->
                         
@@ -1141,14 +1057,14 @@
                           
                         
                             <!-- What We Do List Start -->
-                            <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
+                            <!-- <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
                                 <ul>
                                     <li data-i18n="cta.points.0"></li>
                                     <li data-i18n="cta.points.1"></li>
                                     <li data-i18n="cta.points.2"></li>
                                     
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- What We Do List End -->
                         </div>
                     </div>
@@ -1230,16 +1146,13 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>Driving School Committed to Safe, Confident, and Skilled Drivers.</p>
+                            <p data-i18n="footer.about.subHeading">Driving School Committed to Safe, Confident, and Skilled Drivers.</p>
                         </div>           
                         <!-- About Footer Content End -->
                          
                         <!-- Footer Contact list Start -->
                         <div class="footer-contact-list">
-                            <ul>
-                                <li><a href="tel:+123456789"><img src="images/icon-phone.svg" alt="">(+91) 123 456 789</a></li>
-                                <li><a href="mailto:support@domainname.com"><img src="images/icon-mail.svg" alt="">support@domainname.com</a></li>
-                            </ul>
+                            <p data-i18n="footer.about.description" style="color: black; margin-bottom: 0;"></p>
                         </div>
                     </div>
                     <!-- About Footer End -->
@@ -1250,27 +1163,37 @@
                     <div class="footer-link-box">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
-                            <h3>quick links</h3>
+                            <h3 data-i18n="footer.quickLinks.title">quick links</h3>
                             <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="about.html">about us</a></li>
-                                <li><a href="services.html">our services</a></li>
-                                <li><a href="courses.html">our courses</a></li>
+                                <li data-i18n="footer.quickLinks.items.0.label"><a href="about.html">home</a></li>
+                                <li data-i18n="footer.quickLinks.items.1.label"><a href="framework.html">about us</a></li>
+                                <li data-i18n="footer.quickLinks.items.2.label"><a href="driver.html">our services</a></li>
+                                <li data-i18n="footer.quickLinks.items.3.label"><a href="collaboration.html">our courses</a></li>
+                                <li data-i18n="footer.quickLinks.items.4.label"><a href="faqs.html">our courses</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
 
                         <!-- Footer Contact Info Start -->
                         <div class="footer-links footer-contact-info">
-                            <h3>Get in touch</h3>
+                            <h3 data-i18n="footer.contact.title">Get in touc</h3>
 
                             <!-- Footer Info Item Start -->
                             <div class="footer-info-item">
                                 <div class="icon-box">
-                                    <img src="images/icon-location-accent.svg" alt="">
+                                    <img src="images/icon-service-3.svg" alt="">
                                 </div>
                                 <div class="footer-info-content">
-                                    <p>3891 Ranchview Dr. Richardson, California 62639</p>
+                                    <p data-i18n="footer.contact.website">3891 Ranchview Dr. Richardson, California 62639</p>
+                                </div>
+                            </div>
+
+                            <div class="footer-info-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-service-1.svg" alt="">
+                                </div>
+                                <div class="footer-info-content">
+                                    <p data-i18n="footer.contact.email">3891 Ranchview Dr. Richardson, California 62639</p>
                                 </div>
                             </div>
                             <!-- Footer Info Item End -->
@@ -1281,25 +1204,29 @@
                                     <img src="images/icon-clock.svg" alt="">
                                 </div>
                                 <div class="footer-info-content">
-                                    <p>Mon - Sat: 7am to 4.30pm</p>
-                                    <p>Sunday: Holiday</p>
+                                    <p data-i18n="footer.contact.timing">Mon - Sat: 7am to 4.30pm</p>
+                                 
                                 </div>
                             </div>
                             <!-- Footer Info Item End -->
                         </div>
                         <!-- Footer Contact Info End -->
                         
-                        <!-- Footer Newsletter Form Start -->
+                        <!-- Footer Map Start -->
                         <div class="footer-links footer-newsletter-form">
-                            <h3>newsletter's</h3>
-                            <form id="newslettersForm" action="#" method="POST">
-                                <div class="form-group">
-                                    <input type="email" name="mail" class="form-control"  id="mail" placeholder="Enter Your Email" required>
-                                    <button type="submit" class="btn-default">subscribe now</button>
-                                </div>
-                            </form>
+                            
+                            <iframe
+                                title="KaramSetu Delhi Map"
+                                src="https://www.google.com/maps?q=Delhi&output=embed"
+                                width="100%"
+                                height="220"
+                                style="border:0;"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                allowfullscreen>
+                            </iframe>
                         </div>
-                        <!-- Footer Newsletter Form End -->
+                        <!-- Footer Map End -->
                     </div>
                     <!-- Footer Link Box End -->
                 </div>
@@ -1309,16 +1236,19 @@
                     <div class="footer-copyright">
                         <!-- Footer Copyright Text Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
+                            <p data-i18n="footer.bottomBar.left">Copyright © 2025 All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
                         
                         <!-- Footer Social Links Start -->
                         <div class="footer-social-links">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li ><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li ><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+
                             </ul>
                         </div>
                         <!-- Footer Social Links End -->
