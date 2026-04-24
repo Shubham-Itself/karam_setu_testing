@@ -3875,6 +3875,10 @@ header.main-header .header-sticky.active{
 .course-navigate-info-item{
     width: calc(24% - 20px);
 }
+
+.home-stats-wrap{
+	padding-inline: 115px;
+}
 .hidden{
 	display: none;
 }
@@ -6586,6 +6590,10 @@ header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
 		flex-wrap: wrap;
 	}
 
+	.home-stats-wrap{
+		padding-inline: 0;
+	}
+
 	.page-course-single > .container > .row{
 		flex-direction: column-reverse;
 	}
@@ -6622,5 +6630,11 @@ header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
 
 	.main-menu > .header-lang-toggle:not(.mobile-header-lang-toggle){
 		margin-top: 12px;
+	}
+}
+
+@media (max-width: 767px){
+	.home-stats-wrap .course-navigate-info-item{
+		width: calc(50% - 10px);
 	}
 }
