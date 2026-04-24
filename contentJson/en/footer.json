@@ -10,8 +10,8 @@
         "title": "Quick Links",
         "items": [
           { "label": "About Us", "url": "about.html" },
-          { "label": "Our Framework", "url": "framework.html" },
-          { "label": "For Drivers", "url": "driver.html" },
+          { "label": "Framework", "url": "framework.html" },
+          { "label": "Drivers", "url": "driver.html" },
           { "label": "Collaborations", "url": "collaboration.html" },
           { "label": "FAQs", "url": "faq.html" }
         ]

@@ -1095,7 +1095,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .about-us{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .about-us-image{
@@ -1447,7 +1447,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .why-choose-us{
-	padding: 100px 0 0;
+	padding: 50px 0 0;
 	background: url('../images/why-choose-us-bg.png') no-repeat;
 	background-position: bottom center;
 	background-size: 45% auto;
@@ -1497,7 +1497,7 @@ header.main-header .header-sticky.active{
 
 .what-we-do{
 	background: linear-gradient(180deg, var(--primary-color) 75%, transparent 25%);
-    padding: 100px 0 50px;
+    padding: 50px 0 50px;
 }
 
 .what-we-do-content{
@@ -1549,12 +1549,12 @@ header.main-header .header-sticky.active{
     flex-wrap: wrap;
     align-items: center;
 	justify-content: space-between;
-    gap: 20px 40px;
+    gap: 20px 20px;
     margin-top: 30px;
 }
 
 .what-we-do-info h3{
-    font-size: 24px;
+    font-size: 22px;
     text-transform: capitalize;
 }
 
@@ -1633,7 +1633,7 @@ header.main-header .header-sticky.active{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .how-it-work-image figure{
@@ -1734,7 +1734,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-pricing{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .pricing-item{
@@ -1885,7 +1885,7 @@ header.main-header .header-sticky.active{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 
@@ -1991,7 +1991,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-testimonials{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .testimonial-slider .swiper-wrapper{
@@ -2292,8 +2292,8 @@ header.main-header .header-sticky.active{
 
 .footer-contact-list{
 	display: inline-block;
-	background-color: var(--accent-color);
-	padding: 15px;
+	
+	color: white;
 }
 
 .footer-contact-list ul{
@@ -2598,7 +2598,7 @@ header.main-header .header-sticky.active{
 
 .driving-excellence{
 	position: relative;
-	padding: 100px 0;
+	padding: 50px 0;
 	background: url('../images/driving-excellence-bg.png'), var(--secondary-color);
 	background-repeat: no-repeat;
 	background-position: center left;
@@ -2655,6 +2655,14 @@ header.main-header .header-sticky.active{
 	background: var(--white-color);
 	padding: 30px;
 	overflow: hidden;
+}
+
+.roadmap-cards-row{
+	flex-wrap: nowrap;
+}
+
+.roadmap-cards-row .excellence-item{
+	width: calc((100% - 90px) / 4);
 }
 
 .excellence-item:after{
@@ -2877,7 +2885,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-team{
-	padding: 100px 0 70px;
+	padding: 50px 0 70px;
 }
 
 .team-item{
@@ -2952,7 +2960,7 @@ header.main-header .header-sticky.active{
 	
 .our-core-value{
 	position: relative;
-	padding: 100px 0;
+	padding: 50px 0;
 	background: url('../images/driving-excellence-bg.png') , var(--secondary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -4266,7 +4274,7 @@ header.main-header .header-sticky.active{
 
 .contact-us-content{
 	position: relative;
-	background: black;
+	background-image: url(../karamsetuimage/Contact\ Us.jpeg);
 	background-position: center center;
 	background-size: cover;
 	padding: 40px;
@@ -4279,7 +4287,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	left: 0;
-
+	background: linear-gradient(270.39deg, rgba(16, 15, 17, 0) -99.66%, #100F11 225.66%);
 	z-index: 0;
 }
 
@@ -6574,6 +6582,10 @@ header.main-header .header-sticky.active .header-lang-toggle .lang-seg.active{
 }
 
 @media (max-width: 991px){
+	.roadmap-cards-row{
+		flex-wrap: wrap;
+	}
+
 	.page-course-single > .container > .row{
 		flex-direction: column-reverse;
 	}

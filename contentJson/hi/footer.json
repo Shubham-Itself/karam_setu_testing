@@ -10,8 +10,8 @@
         "title": "त्वरित लिंक",
         "items": [
           { "label": "हमारे बारे में", "url": "about.html" },
-          { "label": "हमारा फ्रेमवर्क", "url": "framework.html" },
-          { "label": "ड्राइवरों के लिए", "url": "driver.html" },
+          { "label": "फ्रेमवर्क", "url": "framework.html" },
+          { "label": "ड्राइवर", "url": "driver.html" },
           { "label": "सहयोग", "url": "collaboration.html" },
           { "label": "प्रश्नोत्तर", "url": "faq.html" }
         ]
